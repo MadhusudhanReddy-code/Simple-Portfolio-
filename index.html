@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="navbar">
+        <div class="logo">
+            <h1>Madhu</h1>
+        </div>
+
+        <div class="nav-right">
+            <ul class="list" id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- DARK MODE BUTTON -->
+            <button  id="toggleDark">🌙</button>
+
+             <!-- Hamburger icon -->
+            <div class="menu-icon" id="menuIcon">☰</div> 
+            
+        </div>    
+    </div>
+</nav>
+
+<main>
+    <div class="home" id="home">
+        <div class="home-left">
+            <img class="image" src="https://res.cloudinary.com/drnmdofz4/image/upload/v1775624043/WhatsApp_Image_2026-04-08_at_10.23.14_wovxrd.jpg" alt="image here">
+        </div>
+        <div class="home-right">
+            <h1 class="hero">Hello I'm <span>Madhusudhan Reddy</span></h1>
+            <p class="para">BCA Student & Web Developer</p>
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <h1>About Me</h1>
+        <p>I am a <strong>BCA Student</strong> passionate about web development. <br> I build modern and responsive websites. Passionate about coding and learning new technologies.</p>
+    </div>
+
+    <div class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="cards">
+            <div class="card">
+                <h3>Weather App</h3>
+                <p> A responsive weather application that shows real-time weather data using OpenWeather API.</p>
+                <h4>Tech Stack :</h4>
+                <p>HTML, CSS, JavaScript, API</p>
+                <div class="project-link">
+                    <a href="https://madhu-weather-app.vercel.app/">Live Demo</a>
+                    <a href="https://github.com/MadhusudhanReddy-code/Weather-App">GitHub</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Flipkart Clone UI</h3>
+                <p>Responsive E-commerce UI design.</p>
+                <h4>Tech Stack :</h4>
+                <p>HTML, CSS, JavaScript</p>
+                <div class="project-link">
+                    <a href="https://flipkart-clone-ui-eight.vercel.app/">Live Demo</a>
+                    <a href="https://github.com/MadhusudhanReddy-code/Flipkart-Clone-UI">GitHub</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Login Page</h3>
+                <p>Secure login page with validation.</p>
+                <h4>Tech Stack :</h4>
+                <p>HTML, CSS, JavaScript</p>
+                <div class="project-link">
+                    <a href="https://login-page-ten-self.vercel.app/">Live Demo</a>
+                    <a href="https://github.com/MadhusudhanReddy-code/Login-page">GitHub</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="skills-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JAVA SCRIPT</span>
+            <span>REACT</span>
+            <span>NODE.JS</span>
+            <span>PYTHON</span>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-container">
+            <input type="text" placeholder=" Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer">
+        <p>© 2026 Madhusudhan Reddy</p>
+    </div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
